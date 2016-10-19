@@ -6,9 +6,18 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		07136ED71DB6506E00A9FFC3 /* unity_psvr.c in Sources */ = {isa = PBXBuildFile; fileRef = 07136ED51DB6506E00A9FFC3 /* unity_psvr.c */; };
+		07136EE61DB65D9600A9FFC3 /* libhidapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07136EE51DB65D9600A9FFC3 /* libhidapi.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		07136ECC1DB64F2700A9FFC3 /* UnityPSVR.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnityPSVR.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		07136ECF1DB64F2700A9FFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07136ED51DB6506E00A9FFC3 /* unity_psvr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unity_psvr.c; sourceTree = "<group>"; };
+		07136ED61DB6506E00A9FFC3 /* unity_psvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unity_psvr.h; sourceTree = "<group>"; };
+		07136ED81DB657F200A9FFC3 /* hidapi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hidapi; sourceTree = "<group>"; };
+		07136EE51DB65D9600A9FFC3 /* libhidapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhidapi.a; path = ../../../../../usr/local/lib/libhidapi.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -16,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07136EE61DB65D9600A9FFC3 /* libhidapi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25,8 +35,10 @@
 		07136EC31DB64F2700A9FFC3 = {
 			isa = PBXGroup;
 			children = (
+				07136ED81DB657F200A9FFC3 /* hidapi */,
 				07136ECE1DB64F2700A9FFC3 /* UnityPSVR */,
 				07136ECD1DB64F2700A9FFC3 /* Products */,
+				07136EDA1DB6597100A9FFC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -42,8 +54,18 @@
 			isa = PBXGroup;
 			children = (
 				07136ECF1DB64F2700A9FFC3 /* Info.plist */,
+				07136ED51DB6506E00A9FFC3 /* unity_psvr.c */,
+				07136ED61DB6506E00A9FFC3 /* unity_psvr.h */,
 			);
 			path = UnityPSVR;
+			sourceTree = "<group>";
+		};
+		07136EDA1DB6597100A9FFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07136EE51DB65D9600A9FFC3 /* libhidapi.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07136ED71DB6506E00A9FFC3 /* unity_psvr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,11 +235,17 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3TF5EUAYLV;
+				HEADER_SEARCH_PATHS = (
+					hidapi,
+					hidapi/hidapi,
+				);
 				INFOPLIST_FILE = UnityPSVR/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = org.horol.UnityPSVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/Shared/Unity/Standard\\ Assets\\ Example\\ Project/Assets/Plugins";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -226,8 +255,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3TF5EUAYLV;
+				HEADER_SEARCH_PATHS = (
+					hidapi,
+					hidapi/hidapi,
+				);
 				INFOPLIST_FILE = UnityPSVR/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = org.horol.UnityPSVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

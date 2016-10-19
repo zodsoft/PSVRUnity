@@ -1,0 +1,17 @@
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/UnityEngine.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/UnityEditor.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Mono.Cecil.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Unity.DataContract.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/obj/Debug/Assembly-CSharp.dll
+/Users/hrl7/Projects/UnityPSVR/UnityPSVR/exampleProject/obj/Debug/Assembly-CSharp.dll.mdb
